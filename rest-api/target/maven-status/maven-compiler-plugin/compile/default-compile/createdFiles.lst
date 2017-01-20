@@ -1,0 +1,7 @@
+idea/controller/IdeaController.class
+idea/entity/Idea.class
+idea/swagger/SwaggerConfig.class
+idea/IdeaApplication.class
+idea/model/Quote.class
+idea/model/Value.class
+idea/repository/IdeaRepository.class

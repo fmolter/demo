@@ -4,7 +4,7 @@ import java.util.Date;
 import java.util.List;
 
 import idea.entity.Idea;
-import idea.repository.IdeaRepository;
+import idea.repository.SpringRestRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -15,7 +15,7 @@ import org.springframework.web.client.RestTemplate;
 public class IdeaController {
 
     @Autowired
-    private IdeaRepository repository;
+    private SpringRestRepository repository;
 
     @RequestMapping(method = RequestMethod.GET)
     public List<Idea> findAll(){
